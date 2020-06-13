@@ -23,9 +23,9 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> ragu.manjegowda@gmail.com
 - <i class="fa fa-globe"></i> [ragu-manjegowda.github.io](https://ragu-manjegowda.github.io/)
-- <i class="fa fa-github"></i> [github.com/ragu-manjegowda](https://github.com/ragu-manjegowda)
+- <i class="fa fa-linkedin"></i> [ragumanjegowda](https://www.linkedin.com/in/ragumanjegowda/)
+- <i class="fa fa-github"></i> [ragu-manjegowda](https://github.com/ragu-manjegowda)
 - <i class="fa fa-phone"></i> 315-925-9043
-- For more information, please contact me via email.
 
 
 Skills {#skills}
@@ -64,7 +64,7 @@ Experience {data-icon=laptop}
 
 Nvidia Corporation 
 
-Santa Clara, San Francisco Bay Area
+Santa Clara, CA
 
 Sept 2018 - Present
 
@@ -75,7 +75,7 @@ middleware compon.
 
 Samsung Semiconductor
 
-San Jose, San Francisco Bay Area
+San Jose, CA
 
 Sept 2016 - Sept 2018
 
@@ -88,7 +88,7 @@ Interfaces.
 
 Hitachi America, Ltd.
 
-Santa Clara, San Francisco Bay Area
+Santa Clara, CA
 
 Jan 2016 - Sept 2016
 
@@ -101,7 +101,7 @@ manner.
 
 ICM Controls
 
-Syracuse, New York Area
+Syracuse, NY
 
 Aug 2015 - Dec 2015
 
@@ -131,7 +131,7 @@ Education {data-icon=graduation-cap data-concise=true}
 
 Master’s Degree, Computer Engineering
 
-Syracuse, New York
+Syracuse, NY
 
 2014 - 2016
 
