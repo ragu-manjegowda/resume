@@ -1,0 +1,162 @@
+---
+title: "Ragu's resume"
+author: "Ragu"
+date: "`r Sys.Date()`"
+params:
+  pdf_mode:
+    value: true
+
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> ragu.manjegowda@gmail.com
+- <i class="fa fa-globe"></i> [ragu-manjegowda.github.io](https://ragu-manjegowda.github.io/)
+- <i class="fa fa-github"></i> [github.com/ragu-manjegowda](https://github.com/ragu-manjegowda)
+- <i class="fa fa-phone"></i> 315-925-9043
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Embedded Systems and System Software Development
+
+- Sensors Interface development for Autonomous Vehicles, Sensor Fusion
+
+- C++, C, Python
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Ragu (Raghavendra) Manjegowda {#title}
+--------------------------------------------------------------------------------
+
+Experienced Embedded Systems and System Software developer with strong background in 
+Operating Systems.
+
+
+Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Senior System Software Engineer
+
+Nvidia Corporation 
+
+Santa Clara, San Francisco Bay Area
+
+Sept 2018 - Present
+
+- Implement robust and efficient sensor interfaces (LiDAR, RADAR, GPS, IMU) as a 
+middleware compon.
+
+### Senior Embedded Software Engineer
+
+Samsung Semiconductor
+
+San Jose, San Francisco Bay Area
+
+Sept 2016 - Sept 2018
+
+- Research concentrated on disruptive technologies that are relevant to the Autonomous 
+and Self-Driving Cars. Developed middle-ware core such as Sensor (RADAR, GPS, IMU, LiDAR) 
+Interfaces.
+
+
+### Intern, Embedded Software and Internet of Things (R&D)
+
+Hitachi America, Ltd.
+
+Santa Clara, San Francisco Bay Area
+
+Jan 2016 - Sept 2016
+
+- Research on localization of sensors in IoT devices to develop solutions for next 
+generation of intelligent machines that talk to each other in a reliable and secure 
+manner.
+
+
+### Intern, Embedded Software Development
+
+ICM Controls
+
+Syracuse, New York Area
+
+Aug 2015 - Dec 2015
+
+- Create embedded software and drivers for HVAC devices.
+- Verify driver following structured test plan; debug and demonstrate firmware on 
+sample boards.
+
+
+### Embedded Software Development Engineer
+
+L&T IES
+
+Bangalore, India
+
+Aug 2011 - Mar 2014
+
+- Software development of calibrating device for Peripheral capillary Oxygen Saturation 
+detector
+- Embedded software development for peripherals of various bio-medical devices which 
+include LCD, EEPROM, ADC etc..,
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Syracuse University
+
+Master’s Degree, Computer Engineering
+
+Syracuse, New York
+
+2014 - 2016
+
+
+### Visvesvaraya Technological University
+
+Bachelor’s Degree, Electronics and Communications Engineering
+
+Bangalore, India
+
+2007 - 2014
+
+
+Projects {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Vivitsa
+
+An Operating system written from Scratch
+
+N/A
+
+2015 - Present
+
+- Linux like minimal kernel 
+- Github repo
+
+
