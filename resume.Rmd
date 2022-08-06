@@ -2,14 +2,15 @@
 title: "Ragu's resume"
 author: "Ragu"
 date: "`r Sys.Date()`"
+
 params:
   pdf_mode:
     value: true
 
 output:
   pagedown::html_resume:
-    # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
+    css: custom_resume.css
 ---
 
 Aside
@@ -22,20 +23,18 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> ragu.manjegowda@gmail.com
-- <i class="fa fa-globe"></i> [ragu-manjegowda.github.io](https://ragu-manjegowda.github.io/)
+- <i class="fa fa-globe"></i> [raghavendramanjegowda.com](https://raghavendramanjegowda.com/)
 - <i class="fa fa-linkedin"></i> [ragumanjegowda](https://www.linkedin.com/in/ragumanjegowda/)
 - <i class="fa fa-github"></i> [ragu-manjegowda](https://github.com/ragu-manjegowda)
 - <i class="fa fa-phone"></i> 315-925-9043
 
 
-Skills {#skills}
+Interests & Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Embedded Systems and System Software Development
+- Operating System, Sensor Fusion.
 
-- Sensors Interface development for Autonomous Vehicles, Sensor Fusion
-
-- C++, C, Python
+- C++, C, Python, Lua, Rust
 
 
 Disclaimer {#disclaimer}
@@ -50,11 +49,11 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Ragu (Raghavendra) Manjegowda {#title}
+Raghavendra (Ragu) Manjegowda {#title}
 --------------------------------------------------------------------------------
 
-Experienced Embedded Systems and System Software developer with strong background in 
-Operating Systems.
+Experienced Embedded Systems and System Software developer with strong
+background in Operating Systems and Computer Architecture.
 
 
 Experience {data-icon=laptop}
@@ -66,10 +65,17 @@ Nvidia Corporation
 
 Santa Clara, CA
 
-Sept 2018 - Present
+Present - Sept 2018  
 
-- Implement robust and efficient sensor interfaces (LiDAR, RADAR, GPS, IMU) as a 
-middleware compon.
+- Implement robust and efficient sensor interfaces (LiDAR, RADAR, GPS, IMU, 
+CAN, USS) as a middleware component.
+- Architect stable and consistent data interfaces for downstream consumers 
+like Perception, Localization, Calibration.
+- Implement faster and efficient data consumption for both driving and 
+recording scenarios.
+- Architect stable and well defined interfaces for Self-Driving SDK.
+- Implement efficient data consumption model for Artificial Intelligence 
+in cloud. 
 
 ### Senior Embedded Software Engineer
 
@@ -77,11 +83,15 @@ Samsung Semiconductor
 
 San Jose, CA
 
-Sept 2016 - Sept 2018
+Sept 2018 - Sept 2016
 
-- Research concentrated on disruptive technologies that are relevant to the Autonomous 
-and Self-Driving Cars. Developed middle-ware core such as Sensor (RADAR, GPS, IMU, LiDAR) 
-Interfaces.
+- Research concentrated on disruptive technologies that are relevant to the 
+Autonomous and Self-Driving Cars. Developed middle-ware core such as Sensor 
+(RADAR, GPS, IMU, LiDAR) Interfaces.
+- Architect stable and consistent data interfaces for downstream consumers 
+like Perception, Localization, Calibration.
+- Implement faster and efficient data consumption for both driving and 
+recording scenarios.
 
 
 ### Intern, Embedded Software and Internet of Things (R&D)
@@ -90,11 +100,11 @@ Hitachi America, Ltd.
 
 Santa Clara, CA
 
-Jan 2016 - Sept 2016
+Sept 2016 - January 2016
 
-- Research on localization of sensors in IoT devices to develop solutions for next 
-generation of intelligent machines that talk to each other in a reliable and secure 
-manner.
+- Research on localization of sensors in IoT devices to develop solutions 
+for next generation of intelligent machines that talk to each other in a 
+reliable and secure manner.
 
 
 ### Intern, Embedded Software Development
@@ -103,11 +113,11 @@ ICM Controls
 
 Syracuse, NY
 
-Aug 2015 - Dec 2015
+Dec 2015 - Aug 2015
 
 - Create embedded software and drivers for HVAC devices.
-- Verify driver following structured test plan; debug and demonstrate firmware on 
-sample boards.
+- Verify driver following structured test plan; debug and demonstrate 
+firmware on sample boards.
 
 
 ### Embedded Software Development Engineer
@@ -116,12 +126,13 @@ L&T IES
 
 Bangalore, India
 
-Aug 2011 - Mar 2014
+Mar 2014 - Aug 2011
 
-- Software development of calibrating device for Peripheral capillary Oxygen Saturation 
-detector
-- Embedded software development for peripherals of various bio-medical devices which 
-include LCD, EEPROM, ADC etc..,
+- Software development of calibrating device for Peripheral capillary 
+Oxygen Saturation detector.
+- Embedded software development for peripherals of various bio-medical 
+devices which include LCD, EEPROM, ADC with the interfaces like SPI, I2C, UART
+and GPIO.
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -133,7 +144,7 @@ Master’s Degree, Computer Engineering
 
 Syracuse, NY
 
-2014 - 2016
+2016 - 2014
 
 
 ### Visvesvaraya Technological University
@@ -142,21 +153,51 @@ Bachelor’s Degree, Electronics and Communications Engineering
 
 Bangalore, India
 
-2007 - 2014
+2011 - 2007
 
 
 Projects {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### Vivitsa
+### Vivitsa 
 
-An Operating system written from Scratch
+An Operating system written from Scratch - Written in C 
 
-N/A
+N/A 
 
-2015 - Present
+2018 - 2017 
 
-- Linux like minimal kernel 
-- Github repo
+- Unix like Operating system with minimal kernel targeted to run on x86.
+- Implemented interrupt handling, paging, heap, virtual file system 
+support and multitasking. 
+- CI using travis CI guarded with unit tests.
+- Build and test environment are dockerized along with scripts to automate, 
+easy to try out without installing anything except docker
 
+::: aside
+<i class="fa fa-globe"></i> [Project Website](https://raghavendramanjegowda.com/vivitsa/)
+:::
+
+
+### Text Finder 
+
+Grep like command line tool for searching text in files and folders 
+recursively - Written in Rust 
+
+N/A 
+
+2021 - 2020 
+
+- Find all files in a directory sub tree with text that matches a specified 
+regular expression.
+- Find all files that have specified extensions (patterns).
+- List all directories and their files in same directory sub tree
+- Implemented with dependency inversion principle.
+- CI with GitHub actions guarded with unit tests for every function, 
+check for formatting and warnings.  
+- Build and test environment are dockerized for this project as well. 
+
+::: aside
+<i class="fa fa-globe"></i> [Project Website](https://raghavendramanjegowda.com/text-finder/)
+:::
 
