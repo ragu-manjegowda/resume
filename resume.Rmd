@@ -22,19 +22,23 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> ragu.manjegowda@gmail.com
-- <i class="fa fa-globe"></i> [raghavendramanjegowda.com](https://raghavendramanjegowda.com/)
+- <li class="small-text"><i class="fa fa-envelope"></i> ragu.manjegowda@gmail.com</li>
+- <li class="small-text"><i class="fa fa-globe"></i> <a href="https://raghavendramanjegowda.com/">raghavendramanjegowda.com</a></li>
 - <i class="fa fa-linkedin"></i> [ragumanjegowda](https://www.linkedin.com/in/ragumanjegowda/)
 - <i class="fa fa-github"></i> [ragu-manjegowda](https://github.com/ragu-manjegowda)
-- <i class="fa fa-phone"></i> 315-925-9043
+- <i class="fa fa-phone"></i> +1-315-925-9043
 
 
 Interests & Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Operating System, Sensor Fusion.
-
-- C++, C, Python, Lua, Rust
+<div style="font-size: 0.85em; line-height: 1.6; margin-top: 0.2in;">
+  <ul>
+    <li style="margin-bottom: 0.15in; text-align: justify;"> <h4 style="text-align: left; margin-bottom: 0;">Areas of Interest:</h4> Operating System, LLMs, Embedded System, Distributed Systems</li>
+    <li style="margin-bottom: 0.15in; text-align: justify;"> <h4 style="text-align: left; margin-bottom: 0;">Tools and Frameworks:</h4> Gained familiarity with variety of them over the years, to name a few: Docker, GDB, Git, Gerrit, Linux, Valgrind, Wireshark, Makefile, CMake, Bazel, RTOS, Jenkins, ArgoCD, K8s, Grafana</li>
+    <li style="margin-bottom: 0.15in; text-align: justify;"> <h4 style="text-align: left; margin-bottom: 0;">Programming Languages:</h4> C++, C, Python, Rust, Lua</li>
+  </ul>
+</div>
 
 
 Disclaimer {#disclaimer}
@@ -59,23 +63,28 @@ background in Operating Systems and Computer Architecture.
 Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### Senior System Software Engineer
+### Senior Staff Engineer / Engineering Manager III
 
-Nvidia Corporation 
+Nvidia Corporation
 
 Santa Clara, CA
 
-Present - Sept 2018  
+Present - Sept 2018
 
-- Implement robust and efficient sensor interfaces (LiDAR, RADAR, GPS, IMU, 
-CAN, USS) as a middleware component.
-- Architect stable and consistent data interfaces for downstream consumers 
-like Perception, Localization, Calibration.
-- Implement faster and efficient data consumption for both driving and 
-recording scenarios.
-- Architect stable and well defined interfaces for Self-Driving SDK.
 - Implement efficient data consumption model for Artificial Intelligence 
-in cloud. 
+in cloud, data ingestion infra for recorded data that can be seek/replay/indexed 
+used for analytics/debugging/training.
+- Implement training and inference pipelines for some of the driving scenarios.
+- Optimize and improve performance of the some of the existing training workflows.
+- Architect and Implemented workflows for HIL (Hardware in the Loop) and SIL 
+(software in the loop) simulation setups for training and inference.
+- Worked closely with in-car platform teams and algorithm teams to have robust 
+re-playability/reproduce-ability and fault tolerance system for simulation.
+- Architect and Lead LLM based simulation for autonomous driving (NRE based 
+scenario reconstruction, reactive agent support, radar reprojection) along with 
+ability to component replay.
+- Converted some of the golang backend code to python for building toolchain.
+
 
 ### Senior Embedded Software Engineer
 
@@ -85,9 +94,8 @@ San Jose, CA
 
 Sept 2018 - Sept 2016
 
-- Research concentrated on disruptive technologies that are relevant to the 
-Autonomous and Self-Driving Cars. Developed middle-ware core such as Sensor 
-(RADAR, GPS, IMU, LiDAR) Interfaces.
+- Implement robust and efficient sensor interfaces (LiDAR, RADAR, GPS, IMU, 
+CAN, USS) as a middleware component, using various protocols (TCP/UDP, CAN, UART).
 - Architect stable and consistent data interfaces for downstream consumers 
 like Perception, Localization, Calibration.
 - Implement faster and efficient data consumption for both driving and 
@@ -105,6 +113,9 @@ Sept 2016 - January 2016
 - Research on localization of sensors in IoT devices to develop solutions 
 for next generation of intelligent machines that talk to each other in a 
 reliable and secure manner.
+- Developed prototypes to demonstrate the research work using various 
+sensors and hardware platforms (Raspberry Pi, Arduino) and variety of communication 
+protocols (BLE, WiFi, TCP, UDP, Zigbee, CoAP, MQTT)
 
 
 ### Intern, Embedded Software Development
@@ -115,9 +126,11 @@ Syracuse, NY
 
 Dec 2015 - Aug 2015
 
-- Create embedded software and drivers for HVAC devices.
+- Create embedded software and drivers for HVAC devices using Renesas Controller 
+in C programming language.
 - Verify driver following structured test plan; debug and demonstrate 
 firmware on sample boards.
+- Create and implement test cases for the software.
 
 
 ### Embedded Software Development Engineer
@@ -129,7 +142,7 @@ Bangalore, India
 Mar 2014 - Aug 2011
 
 - Software development of calibrating device for Peripheral capillary 
-Oxygen Saturation detector.
+Oxygen Saturation detector (Atmel Controller, C programming language).
 - Embedded software development for peripherals of various bio-medical 
 devices which include LCD, EEPROM, ADC with the interfaces like SPI, I2C, UART
 and GPIO.
@@ -158,6 +171,8 @@ Bangalore, India
 
 Projects {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
+
+Some of the hobby projects I have worked on. Please feel free to find more on GitHub.
 
 ### Vivitsa 
 
@@ -200,4 +215,3 @@ check for formatting and warnings.
 ::: aside
 <i class="fa fa-globe"></i> [Project Website](https://raghavendramanjegowda.com/text-finder/)
 :::
-

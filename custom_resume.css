@@ -358,6 +358,11 @@ h1, h2{
   margin-top: 0.5in;
 }
 
+/* small text */
+.small-text {
+  font-size: 0.7em;
+}
+
 #contact ul{
   margin-top: 0.05in;
   padding-left: 0;
